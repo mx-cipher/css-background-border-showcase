@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* লোগোর লাল ও সায়ান থিমের সাথে সামঞ্জস্যপূর্ণ ডার্ক ব্যাকগ্রাউন্ড */
+    background-image: linear-gradient(135deg, #0b1a20, #1a090d, #080f11);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.profile-card {
+    /* কার্ডের ব্যাকগ্রাউন্ডকে লোগোর ভেতরের কালার টোনের মতো ডার্ক করা হয়েছে */
+    background-image: radial-gradient(circle at center, #1c242b, #0d1317);
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(0, 210, 255, 0.15); /* হালকা সায়ান বর্ডার */
+}
+
+.card-header {
+    /* ভ্যালিড প্লেসহোল্ডার ইমেজ সাইজ যুক্ত করা হয়েছে */
+    background-image: url('https://picsum.photos'); 
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.profile-img-container {
+    margin-top: -60px;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #131a20; /* কার্ডের সাথে ম্যাচিং ডার্ক বর্ডার */
+    outline: 3px solid #00d2ff;  /* লোগোর নিয়ন সায়ান বর্ডার */
+    outline-offset: 2px;
+    box-shadow: 0 0 20px rgba(0, 210, 255, 0.5);
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 30px 20px;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 13px;
+    color: #00d2ff; /* লোগোর সায়ান কালার */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 14px;
+    color: #a0aab0; /* একটু সফট টেক্সট কালার যেন পড়তে সুবিধা হয় */
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-follow {
+    /* লোগোর সায়ান থেকে লালের একটি দারুণ মিক্স গ্রাডিয়েন্ট বাটন */
+    background-image: linear-gradient(to right, #00d2ff, #ff1e42);
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 30, 66, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-follow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 210, 255, 0.5);
+}
