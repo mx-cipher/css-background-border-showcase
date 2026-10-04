@@ -17,10 +17,6 @@ The main goal of this project was to learn and implement:
 - **Neon Cyan Accent:** Vibrant glowing effects tailored perfectly around the profile avatar and follow button.
 - **Glass & Depth Design:** Soft border opacity mixed with heavy dark drop shadows to give the layout high contrast and visual hierarchy.
 
-## Project Links
-- **Live Demo:** [Click here to view live](https://github.io) *(Replace with your GitHub Pages URL)*
-- **Source Code:** [View on GitHub](https://github.com) *(Replace with your repository URL)*
-
 ---
 *Created as part of my Full-Stack & Cyber Security coding journey. Feel free to leave a if you like it!*
 
